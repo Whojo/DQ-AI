@@ -16,7 +16,9 @@ Things get harder...
 So here is how I build this program :
 The idea is simple, I want to create a file with all the questions and their corresponding right answer. If in a game, I have a question I have already met, I can answer correctly thanks to this file. If not, I save it and I will correctly answer it the next time.
 
-The main challenge here is to allow the program to interact with the game while there is no API. So I download an emulator for Android on my laptop. I used an OCR (Optical Character Recognition) find on a github to capture questions and answers. And we are done!
+The main challenge here is to allow the program to interact with the game while there is no API. So I download an emulator for Android on my laptop. I need an OCR (Optical Character Recognition) to capture questions and answers. I found one on GitHub which is nammed pytesser and work perfectly in python. And as you can see it represent the main part of my program. The only script I wrote is DuelQuizAI.py.
+
+And we are done!
 
 It is properly working. But I underestimate one factor...
 The time needed to save all the questions is HUGE!
